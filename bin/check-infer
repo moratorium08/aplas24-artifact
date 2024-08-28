@@ -1,0 +1,10 @@
+#!/bin/sh
+
+FILENAME=/tmp/ml2hfl_tmp.in
+
+ml2hfl $1 > $FILENAME
+
+shift
+
+cd /work/hopdr/hopdr
+./target/release/check --do-hoice-preprocess --input $FILENAME $@

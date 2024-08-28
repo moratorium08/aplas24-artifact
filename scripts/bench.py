@@ -8,7 +8,6 @@ import time
 
 class ParseError(Exception):
     pass
-# assumption: this script is placed at <project_root>/scripts
 project_root = "/work/hopdr/hopdr/"
 base = "/work/benchmark"
 TARGET = '/work/hopdr/hopdr/target/release/check'
