@@ -10,7 +10,7 @@ class ParseError(Exception):
     pass
 # assumption: this script is placed at <project_root>/scripts
 project_root = "/work/hopdr/hopdr/"
-base = "/work/hflmc2/benchmark"
+base = "/work/benchmark"
 TARGET = '/work/hopdr/hopdr/target/release/check'
 cmd_template = TARGET + ' {} --do-hoice-preprocess --print-stat --input {}'  # <option> <filename>
 
@@ -150,7 +150,7 @@ args = parser.parse_args()
 
 cfg = Config()
 cfg.args = args
-cfg.root = './'
+cfg.root = project_root
 cfg.retry = 0
 cfg.base = 'inputs'
 config(cfg)
