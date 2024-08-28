@@ -1,0 +1,3 @@
+[submodule "hopdr"]
+	path = hopdr
+	url = https://github.com/hopv/hopdr.git
