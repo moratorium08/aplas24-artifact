@@ -11,3 +11,4 @@ COPY scripts ./
 
 ENV PATH="/work/hopdr/hopdr/bin:/work/bin":$PATH
 
+COPY hfl-preprocessor /work/bin/hfl-preprocessor

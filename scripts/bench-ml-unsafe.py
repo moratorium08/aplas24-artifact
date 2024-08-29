@@ -24,7 +24,6 @@ def pre_cmd():
 
 def config(c):
     global cfg
-    cfg.base = 'ml'
     cfg = c
 
 
